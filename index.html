@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zalo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="logo">
+        <img src="zalo.png" alt="Zalo">
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Tìm kiếm...">
+      </div>
+      <div class="user-info">
+        <img src="1-1473150685951-5.jpg" alt="Avatar">
+        <span>Tên người dùng</span>
+      </div>
+    </header>
+    <main>
+      <section class="sidebar">
+        <div class="left-nav">
+          <ul class="tabs">
+            <li><a href="#">Tin nhắn</a></li>
+            <li><a href="#">Gọi điện</a></li>
+            <li><a href="#">Nhóm</a></li>
+            <li><a href="#">Thêm</a></li>
+          </ul>
+        </div>
+        <div class="conversations">
+          <ul>
+            <li class="active">
+              <a href="#">
+                <img style="height: 50%;width: 50px; ;" src="hinh-anh-gai-xinh-viet-nam-dep-nhat.jpg" alt="Avatar">
+                <div class="conversation-info">
+                  <span class="username">Hot girl</span>
+                  <p class="message-preview">Dạo này anh thế thế nào</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img style="height: 50%;width: 50px; " src="F0B28C78-C0D5-4255-B-01.jpeg" alt="Ngọc Sơn">
+                <div class="conversation-info">
+                  <span class="username">Ngọc sơn</span>
+                  <p class="message-preview">Thằng súc vật sơn làm đi đừng nghịch nữa</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img style="height: 50%;width: 90px;" src="elon-musk-2-9936-1639406089.jpg" alt="Avatar">
+                <div  class="conversation-info">
+                  <span class="username">Elon Musk</span>
+                  <p class="message-preview">Bạn ngủ dậy chưa</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="chat-area">
+        <div class="chat-container">
+          <div class="chat-box">
+            <div class="chat-message outgoing">
+              <p>Hello there!</p>
+            </div>
+            <div class="chat-message incoming">
+              <p>Hi! How can I help you?</p>
+            </div>
+            <!-- More chat messages go here -->
+          </div>
+        <div class="messages">
+          <!-- Tin nhắn sẽ được thêm vào đây -->
+        </div>
+        <div class="input-bar">
+          <input type="text" placeholder="Nhập tin nhắn..." />
+          <button type="button">Gửi</button>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
